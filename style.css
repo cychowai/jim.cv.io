@@ -1,9 +1,9 @@
 .iconContainer {
   display: flex;
-  max-width: 5vw;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 i {
   cursor: pointer;
+  margin: 0 0.5vw;
 }

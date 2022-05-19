@@ -1,9 +1,45 @@
 .iconContainer {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.licenseContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 i {
   cursor: pointer;
   margin: 0 0.5vw;
+}
+
+i:hover {
+  opacity: 70%;
+}
+
+.aboutme {
+  max-width: 6vw;
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: 0.5vh solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.2px;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }

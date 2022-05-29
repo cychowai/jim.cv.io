@@ -13,7 +13,7 @@
 
 <body>
   <div class="w3-row">
-    <div class="w3-half w3-blue-grey w3-container" style="min-height:800px">
+    <div class="w3-half w3-blue-grey w3-container" style="min-height:820px">
       <div class="w3-padding-64 w3-center">
         <h1>About Me_</h1>
         <!-- <img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:50%"> -->
@@ -36,7 +36,7 @@
         </div>
       </div>
     </div>
-    <div class="w3-half w3-indigo w3-container" style="min-height:800px">
+    <div class="w3-half w3-indigo w3-container" style="min-height:820px">
       <div class="w3-padding-64 w3-center">
         <h1>My Working Experience & Education_</h1>
         <div class="w3-container w3-responsive">
@@ -78,40 +78,42 @@
   </div>
 
   <div class="w3-row">
-    <div class="w3-half w3-light-grey w3-center" style="min-height:300px">
+    <div class="w3-half w3-light-grey w3-center" style="min-height:350px">
       <div class="w3-padding-64">
         <h1>HKDSE Results & Certificate_</h1>
         <div class="w3-container w3-responsive">
           <table class="w3-table">
             <tr>
-              <td><b>HKDSE Results (2018)</b></td>
+              <td><b>HKDSE Results (2018)</b>&nbsp</td>
+              <td>Click <a href="/src/documents/HKDSE.pdf" target="_blank">here</a> to view</td>
             </tr>
             <tr>
               <td>Chinese Language: 4</td>
               <td>English Language: 3</td>
               <td>Mathematics: 5**</td>
+            </tr>
+            <tr>
+              <td>Mathematics Extended Part Module II: 5*</td>
               <td>Liberal Studies: 4</td>
             </tr>
             <tr>
               <td>Physics: 5</td>
               <td>Chemistry: 4</td>
               <td>Biology: 5*</td>
-              <td>Mathematics Extended Part Module II: 5*</td>
             </tr>
             <tr>
-              <td><b>IELTS: 7 (Tested on 2020)</b></td>
+              <td><b>IELTS: 7 (Tested on 2020)</b>&nbsp</td>
+              <td>Click <a href="/src/documents/IELTS.jpg" target="_blank">here</a> to view</td>
             </tr>
             <tr>
-              <td>Chinese Language: 4</td>
-              <td>English Language: 3</td>
-              <td>Mathematics: 5**</td>
-              <td>Mathematics Extended Part Module 2: 5*</td>
+              <td><b>Dean of Engineering Scholarship (2018)</b></td>
+              <td>Click <a href="/src/documents/CERT.jpg" target="_blank">here</a> to view</td>
             </tr>
           </table>
         </div>
       </div>
     </div>
-    <div class="w3-half w3-dark-grey w3-center" style="min-height:300px">
+    <div class="w3-half w3-dark-grey w3-center" style="min-height:350px">
       <div class="w3-padding-64">
         <h1>Contact Me_</h1>
         <div class="w3-container w3-responsive">
@@ -141,7 +143,7 @@
     <div class="licenseContainer">
       <i class="fa fa-github btn" style="font-size:24px"
         onclick="location.href='https://github.com/cychowai/jim.cv.io';"></i>
-      <p>Copyright for this website reserved by Chow Chi Yau, Jim © 2022</p>
+      <p>Copyright for this website reserved by Chow Chi Yau, Jim © <?php echo date("Y");?></p>
     </div>
   </footer>
 </body>

@@ -10,12 +10,12 @@
   align-items: center;
 }
 
-i {
+.btn {
   cursor: pointer;
   margin: 0 0.5vw;
 }
 
-i:hover {
+.btn:hover {
   opacity: 70%;
 }
 
@@ -23,7 +23,7 @@ i:hover {
   max-width: 6vw;
 }
 
-.typewriter h1 {
+/* .typewriter h1 {
   overflow: hidden;
   border-right: 0.5vh solid orange;
   white-space: nowrap;
@@ -42,4 +42,4 @@ i:hover {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
-}
+} */
